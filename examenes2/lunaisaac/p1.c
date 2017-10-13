@@ -11,6 +11,6 @@ int main()
         suma=suma+x;
         sumacuadrado=(suma)*(suma);
     }
-    printf("El cuadrado de la suma es= %d\n", sumacuadrado);
+    printf("%d\n", sumacuadrado);
     return 0;
 }

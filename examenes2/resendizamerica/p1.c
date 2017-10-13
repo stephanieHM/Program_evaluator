@@ -13,6 +13,6 @@ int main()
         suma=suma+x;
         cuadrado=suma*suma;
     }
-    printf("El cuadrado de la suma es: %d", cuadrado);
+    printf("%d\n", cuadrado);
     return 0;
 }

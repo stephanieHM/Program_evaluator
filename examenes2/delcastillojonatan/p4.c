@@ -9,8 +9,9 @@ main(void)
     int i,N;
     float sumatoria=0,desviacion=0;
     float x=0;
-    printf("cuantos datos almacenara?>%d");
-    scanf("%d",&N);
+    //printf("cuantos datos almacenara?>%d");
+    //scanf("%d",&N);
+    N=50;
     for(i=1;i<N;i++)
     {
         printf("ingrese numeros:");
@@ -22,6 +23,6 @@ main(void)
         sumatoria=((numeros[i]-x)^2)/N;
     }
     desviacion=sqrt(sumatoria);
-    printf("desv estandar: %5.f\n\n",desviacion);
-    system("pause");
+    printf("%5.f\n",desviacion);
+    //system("pause");
 }

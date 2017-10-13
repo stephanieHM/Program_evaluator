@@ -5,16 +5,16 @@
 int main()
 {
     int N,cuadrado,x,y;
-    printf("Introduzca un numero:");
+    //printf("Introduzca un numero:");
     scanf("%d",&N);
     for(cuadrado=0;cuadrado<=10000;)
     {
-        printf("Introduzca otro numero:");
+        //printf("Introduzca otro numero:");
         scanf("%d",&x);
         N=N+x;
         y=N*N;
         cuadrado=cuadrado+y;
     }
-    printf("La suma al cuadrado: %d", cuadrado);
+    printf("%d\n", cuadrado);
     return 0;
 }

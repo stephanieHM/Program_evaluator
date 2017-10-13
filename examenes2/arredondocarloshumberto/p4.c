@@ -13,10 +13,10 @@ int main()
     {
         num[i]= rand()%100;
         acum=acum+num[i];
-        printf("%.1f\n", num[i]);
+        //printf("%.1f\n", num[i]);
     }
     prom= acum/50;
-    printf("El promedio es: %.1f\n", prom);
+    printf("%.1f\n", prom);
 
     //Desviacion
 
@@ -28,6 +28,6 @@ int main()
     }
     aux=(0.02040816326530612244897959);
     desv=sqrt(acum*aux);
-    printf("La desviacion estandar es: %f\n", desv);
+    printf("%f\n", desv);
     return 0;
 }

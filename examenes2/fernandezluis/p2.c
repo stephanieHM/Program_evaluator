@@ -4,18 +4,19 @@
 
 int main(){
     int b1=0, b2=1, c, lim=10, i;
-
+    scanf("%d",&b1);
+    scanf("%d",&b2);
     //impresion digito inicial
-    printf("%d,", b2);
+    //printf("%d,", b2);
     for(i=0;i<lim-1;i++){
         //generacion digito siguiente
         c=b1+b2;
         //impresion numero siguiente
-        printf("%d", c);
+        printf("%d\n", c);
         if(i<=(lim-3)){
-            printf(",");
+            //printf(",");
         }else{
-            printf(".");
+            //printf(".");
         }
         //inicializacion numeros previos
         b1=b2;

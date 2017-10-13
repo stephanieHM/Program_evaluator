@@ -9,7 +9,7 @@ int main()
     for(i=0; i<50; i++)
     {
         n[i]=rand()%100;
-        printf("%d\n", n[i]);
+        //printf("%d\n", n[i]);
     }
     printf("\n");
 

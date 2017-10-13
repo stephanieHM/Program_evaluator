@@ -10,11 +10,12 @@ int main()
     for(i=0;i<50;i++)
     {
         cad[i]=rand()%100;
-        printf("%d\n",cad[i]);
+        //printf("%d\n",cad[i]);
     }
     for(i=0;i<100;i+=10)
     {
-        printf("\n%d",i);
+	
+        printf("%d",i);
         for(j=0;j<50;j++)
         {
             if(cad[j]>=i&&cad[j]<i+10)
@@ -22,6 +23,8 @@ int main()
                 printf("*");
             }
         }
+
+	printf("\n",i);
     }
     return 0;
 }

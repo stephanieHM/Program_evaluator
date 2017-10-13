@@ -15,9 +15,9 @@ int main()
     }
     for(i=0;i<50;i++)
     {
-        printf("%d\n",cadena[i]);
+        //printf("%d\n",cadena[i]);
     }
-    printf("\n\n");
+    //printf("\n\n");
     printf("00 ");
     for(i=0;i<50;i++)
     {

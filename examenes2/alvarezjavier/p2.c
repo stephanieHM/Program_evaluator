@@ -4,6 +4,8 @@
 int main()
 {
     int b1=1,b2=1,c,i;
+    scanf("%d",&b1);
+    scanf("%d",&b2);
 
     printf("%d\n%d\n",b1,b2);
 

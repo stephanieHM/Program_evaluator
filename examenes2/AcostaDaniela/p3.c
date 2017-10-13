@@ -11,12 +11,14 @@ int main()
    {
        x++;
    }
-   printf("La longitud de la cadena es %d\n",x);
+   //printf("La longitud de la cadena es %d\n",x);
+  
 
    for(i=x-1,j=0;i>0;i--,j++)
    {
        a[i]=b[j];
+
    }
-   printf("%s",b[j]);
+   printf("%s\n%d\n",b[j],x);
     return 0;
 }

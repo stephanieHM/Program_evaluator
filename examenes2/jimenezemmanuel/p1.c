@@ -11,6 +11,6 @@ int main()
         scanf("%d",&x);
         s=s+x;
     }
-    printf("%d",S);
+    printf("%d\n",S);
     return 0;
 }

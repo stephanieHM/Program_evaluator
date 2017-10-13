@@ -17,6 +17,6 @@ int main()
         sum=sum+x;
         cuadrado=(sum*sum);
    }
-   printf("El cuadrado de la suma es:  %d", cuadrado);
+   printf("%d\n", cuadrado);
     return 0;
 }

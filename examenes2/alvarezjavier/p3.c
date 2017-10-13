@@ -23,5 +23,6 @@ int main()
         b[i]=a[j];
     }
     printf("%s\n%d\n",b,x);
-    return 0;
+    //printf("%s",b);
+	return 0;
 }

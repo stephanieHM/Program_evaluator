@@ -19,7 +19,7 @@ int main()
         cuad=(suma)*(suma);
         if(cuad>=10000)
         {
-            printf("\nEl cuadrado de la suma es: %d\n",cuad);
+            printf("%d\n",cuad);
             return 0;
         }
 

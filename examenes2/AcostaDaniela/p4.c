@@ -11,7 +11,7 @@ int main()
     for(i=0;i<50;i++)
     {
        x[i]=rand()%99;
-       printf("%d\n",x[i]);
+       //printf("%d\n",x[i]);
     }
 
     for(i=0;i<50;i++)
@@ -21,7 +21,8 @@ int main()
 
     //printf("suma %.2f\n",suma);
     promedio=suma/50;
-    printf("promedio %.2f\n",promedio);
+    //printf("promedio %.2f\n",promedio);
+    printf("%.2f\n",promedio);
 
     for(i=0;i<50;i++)
     {
@@ -32,7 +33,8 @@ int main()
 
     desviacion=sqrtf(y*sumatoria);//no pude multiplicarlo por la fraccion 1/N-1, y es la fraccion en numero decimal
 
-    printf("Desviacion estandar %f",desviacion);
+    //printf("Desviacion estandar %f",desviacion);
+    printf("%f\n",desviacion);
 
     return 0;
 }

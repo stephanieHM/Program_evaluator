@@ -20,5 +20,8 @@ int main()
     }
 
     x=suma*suma;
-    printf("El cuadrado de la suma es:%d\n",x);
+    //printf("El cuadrado de la suma es:%d\n",x);
+    printf("%d\n",x);
+    
 }
+

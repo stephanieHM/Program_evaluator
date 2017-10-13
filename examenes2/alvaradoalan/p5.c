@@ -18,7 +18,7 @@ int main()
     {
         num[i]=rand()%100;
 
-        printf("%d\n",num[i]);
+       // printf("%d\n",num[i]);
     }
 
 
@@ -29,7 +29,7 @@ int main()
 
     }
 
-    printf("\nel resultado obtenido es\n");
+    //printf("\nel resultado obtenido es\n");
 
     for(k=1;k<10;k++)
     {

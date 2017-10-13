@@ -7,7 +7,7 @@ do
 	echo "Leyendo el archivo $line "
 	echo "Compilando el archivo $line "
 	salida="$line.exe"
-	echo "gcc $line -o $salida"
+	gcc $line -o $salida
 	echo "Ejecutando $salida "
 	echo "$salida"
 	echo "Entrada de datos a programa"
@@ -30,3 +30,4 @@ do
 
 
 done;	
+

@@ -11,9 +11,9 @@ int main()
         n[i]=rand()%99;
     }
     for (i=0; i<50; i++){
-        printf("%d\n",n[i]);
+        //printf("%d\n",n[i]);
     }
-    printf("\n");
+    //printf("\n");
     for(i=0; i<50; i++){
         if(j<10){
             if (n[i]<10){

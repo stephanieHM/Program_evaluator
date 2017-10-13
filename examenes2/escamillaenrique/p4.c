@@ -24,8 +24,8 @@ int main()
         printf("%d\n",w);
         printf("%f\n",j);*/
     }
-    printf("El promedio es %f\n",prom);
+    printf("%f\n",prom);
     desv=(sqrt((1/9.0)*j));
-    printf("La desviacion estandar es %f",desv);
+    printf("%f\n",desv);
     return 0;
 }

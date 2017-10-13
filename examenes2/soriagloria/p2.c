@@ -6,9 +6,10 @@ int main()
     int a,b,c,d,e,f,g,h;
     int b1=0;
     int b2=0;
-    printf("Escribe b1: ");
+    //printf("%d",i);
+    //printf("Escribe b1: ");
     scanf("%d",&b1);
-    printf("Escribe b2: ");
+    //printf("Escribe b2: ");
     scanf("%d",&b2);
     a=b1+b2;
     b=a+b2;
@@ -18,6 +19,6 @@ int main()
     f=d+e;
     g=f+e;
     h=f+g;
-    printf("%d,%d,%d,%d,%d,%d,%d,%d,%d,%d",b1,b2,a,b,c,d,e,f,g,h);
+    printf("%d\n,%d\n,%d\n,%d\n,%d\n,%d\n,%d\n,%d\n,%d\n,%d\n",b1,b2,a,b,c,d,e,f,g,h);
     return 0;
 }

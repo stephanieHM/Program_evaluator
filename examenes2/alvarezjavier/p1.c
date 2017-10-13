@@ -11,6 +11,7 @@ int main()
         y=y+x;
         z=y*y;
     }
-    printf("El cuadrado de la suma es: %d\n",z);
-    return 0;
+    //printf("El cuadrado de la suma es: %d\n",z);
+    printf("%d\n",z);
+	return 0;
 }

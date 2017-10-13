@@ -16,6 +16,6 @@ int main()
             suma_al_cuadrado=suma;
             suma_al_cuadrado=suma_al_cuadrado*suma_al_cuadrado;
         }
-printf("El cuadrado de la suma es: %d\n",suma_al_cuadrado);
+printf("%d\n",suma_al_cuadrado);
     return 0;
 }

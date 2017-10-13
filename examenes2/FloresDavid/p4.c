@@ -16,7 +16,7 @@ int main()
     }
     for(i=0;i<50;i++)
     {
-        printf("%d\n",cadena[i]);
+        //printf("%d\n",cadena[i]);
     }
     for(i=0;i<50;i++)
     {
@@ -31,7 +31,7 @@ int main()
 
     desviacion=sqrt((1/(49))*(sumax));
 
-    printf("\n\nEl promedio es: %.4f\n",promedio);
-    printf("La desviacion es: %f",desviacion);
+    printf("%.4f\n",promedio);
+    printf("%f",desviacion);
     return 0;
 }

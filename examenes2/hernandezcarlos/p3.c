@@ -30,7 +30,7 @@ int main()
 
     {
         printf("%s\n", b);
-        printf("%d",lona);
+        printf("%d\n",lona);
     }
     return 0;
 }

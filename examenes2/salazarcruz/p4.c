@@ -13,16 +13,16 @@ int main()
     {
         arr[i]=rand()%100;
         suma=suma+arr[i];
-        printf("%d\n",arr[i]);
+        //printf("%d\n",arr[i]);
     }
     mean=suma/50.0;
-    printf("El promedio es: %f\n",mean);
+    printf("%f\n",mean);
     for(i=0;i<50;i++)
     {
         sumatoria=sumatoria+pow((arr[i]-mean),2);
     }
     stdev=sqrt((sumatoria)/49.0);
-    printf("La desviacion estandar es: %f\n",stdev);
+    printf("%f\n",stdev);
 
 
     return 0;

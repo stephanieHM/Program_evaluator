@@ -13,9 +13,9 @@ int main()
     //IMPRIMIMOS LOS NUMEROS
     for(i=0;i<50;i++)
     {
-        printf("%d ", numeros[i]);
+       // printf("%d ", numeros[i]);
     }
-    printf("\n");
+    //printf("\n");
 
     for(j=0;j<50;j++)
     {
@@ -33,7 +33,7 @@ int main()
     for(i=0;i<50;i++)
     {
         if(numeros[i]>=0 && numeros[i]<=9)
-        {printf("%d ", numeros[i]);
+        {//printf("%d ", numeros[i]);
             t1++;
         }
         if(numeros[i]>=10 && numeros[i]<=19)
@@ -73,70 +73,70 @@ int main()
             t10++;
         }
     }
-    printf("00 ");
+    printf("00");
     for(i=0;i<t1;i++)
     {
         printf("*");
     }
     printf("\n");
 
-    printf("10 ");
+    printf("10");
     for(i=0;i<t2;i++)
     {
         printf("*");
     }
     printf("\n");
 
-    printf("20 ");
+    printf("20");
     for(i=0;i<t3;i++)
     {
         printf("*");
     }
     printf("\n");
 
-    printf("30 ");
+    printf("30");
     for(i=0;i<t4;i++)
     {
         printf("*");
     }
     printf("\n");
 
-    printf("40 ");
+    printf("40");
     for(i=0;i<t5;i++)
     {
         printf("*");
     }
     printf("\n");
 
-    printf("50 ");
+    printf("50");
      for(i=0;i<t6;i++)
     {
         printf("*");
     }
     printf("\n");
 
-    printf("60 ");
+    printf("60");
      for(i=0;i<t7;i++)
     {
         printf("*");
     }
     printf("\n");
 
-    printf("70 ");
+    printf("70");
      for(i=0;i<t8;i++)
     {
         printf("*");
     }
     printf("\n");
 
-    printf("80 ");
+    printf("80");
      for(i=0;i<t9;i++)
     {
         printf("*");
     }
     printf("\n");
 
-    printf("90 ");
+    printf("90");
      for(i=0;i<t10;i++)
     {
         printf("*");

@@ -9,8 +9,8 @@ int main()
     int b1=1;
     int b2=1;
     int c=0;
-
-
+    scanf("%d",&b1);
+    scanf("%d",&b2);
     for(i=0;i<10;i++)
     {
         num[0]=b1;
@@ -29,7 +29,7 @@ int main()
     for(j=0;j<9;j++)
     {
         c=num[j];
-        printf("%d,",c);
+        printf("%d\n",c);
 
     }
 

@@ -12,7 +12,7 @@ int main()
     for(i=0;i<50;i++)
     {
         b[i]=rand()%100;
-        printf("%d\n",b[i]);
+        //printf("%d\n",b[i]);
     }
     for(i=0;i<50;i++)
     {
@@ -29,7 +29,7 @@ int main()
     }
 
 
-     printf("\n");
+     //printf("\n");
     for(i=0;i<=9;i++)
     {
         intervalo=i*10;

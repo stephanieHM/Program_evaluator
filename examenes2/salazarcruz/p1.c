@@ -11,6 +11,6 @@ int main()
         suma=suma+x;
         y=suma*suma;
     }
-    printf("%d",y);
+    printf("%d\n",y);
     return 0;
 }

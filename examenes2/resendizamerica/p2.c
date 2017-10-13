@@ -7,6 +7,8 @@ int main()
     int i=0;
     int serie[10];
     serie[0]=1;
+    scanf("%d",&y);
+    scanf("%d",&z);
     for(i=1;i<10;i++)
     {
         serie[i]=x+y;

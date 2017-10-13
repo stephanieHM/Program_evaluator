@@ -10,10 +10,10 @@ int main()
     for(i=0;i<50;i++)
     {
         a[i]=rand()%100;
-        printf("%d ",a[i]);
+        //printf("%d ",a[i]);
         if(i==24)
         {
-            printf("\n");
+          //  printf("\n");
         }
     }
     for(i=0;i<50;i++)
@@ -59,52 +59,52 @@ int main()
             x9++;
         }
     }
-    printf("\n00 ");
+    printf("00");
     for(i=0;i<x;i++)
     {
         printf("*");
     }
-    printf("\n10 ");
+    printf("\n10");
     for(i=0;i<x1;i++)
     {
         printf("*");
     }
-    printf("\n20 ");
+    printf("\n20");
     for(i=0;i<x2;i++)
     {
         printf("*");
     }
-    printf("\n30 ");
+    printf("\n30");
     for(i=0;i<x3;i++)
     {
         printf("*");
     }
-    printf("\n40 ");
+    printf("\n40");
     for(i=0;i<x4;i++)
     {
         printf("*");
     }
-    printf("\n50 ");
+    printf("\n50");
     for(i=0;i<x5;i++)
     {
         printf("*");
     }
-    printf("\n60 ");
+    printf("\n60");
     for(i=0;i<x6;i++)
     {
         printf("*");
     }
-    printf("\n70 ");
+    printf("\n70");
     for(i=0;i<x7;i++)
     {
         printf("*");
     }
-    printf("\n80 ");
+    printf("\n80");
     for(i=0;i<x8;i++)
     {
         printf("*");
     }
-    printf("\n90 ");
+    printf("\n90");
     for(i=0;i<x9;i++)
     {
         printf("*");

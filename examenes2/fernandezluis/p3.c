@@ -20,6 +20,6 @@ int main(){
         cadenainv[i]=cadena[longitud-i-1];
     }
     //impresion cadena invertida y longitud de cadena
-    printf("%s\n%d", cadenainv, longitud);
+    printf("%s\n%d\n", cadenainv, longitud);
     return 0;
 }

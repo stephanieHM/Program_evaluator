@@ -24,6 +24,6 @@ int main()
     {
         b[l-i-1]=a[i];
     }
-    printf("%s\n%d",b,l);
+    printf("%s\n%d\n",b,l);
     return 0;
 }

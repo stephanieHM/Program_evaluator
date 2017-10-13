@@ -45,7 +45,7 @@ int main(){
     //impresion histograma
     for(i=0;i<10;i++){
         a=datos[i];
-        printf("%d0 ", i);
+        printf("%d0", i);
         for(j=0;j<a;j++){
             printf("*");
         }

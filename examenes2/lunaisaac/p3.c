@@ -21,7 +21,7 @@ int main()
 {
     char cadena[200]={0}, inverso[200]={0};
     int i=0, e=0, t, tam;
-    printf("Escriba una cadena de texto:\n");
+    //printf("Escriba una cadena de texto:\n");
     gets(cadena);
     tam=tamcadena(cadena);
     for(i=tam-1;i>=0;i--)

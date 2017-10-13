@@ -15,7 +15,7 @@ int main()
     {
         a[i]=rand()%100;
         x=x+a[i];
-        printf("%d\n",a[i]);
+        //printf("%d\n",a[i]);
     }
     xm=x/50.00;
     for(i=0;i<50;i++)
@@ -24,6 +24,6 @@ int main()
     }
     de=sqrt((y/(49.00)));
 
-    printf("El promedio es: %.2f y la desviacion estandar es: %.2f\n",xm,de);
+    printf("%.2f\n%.2f\n",xm,de);
     return 0;
 }

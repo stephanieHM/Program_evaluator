@@ -17,7 +17,7 @@ int main()
     for(i=0; i<50 ; i++)
     {
         a[i]=rand()%100;
-        printf("%d\n", a[i]);
+        //printf("%d\n", a[i]);
         suma=suma+a[i];
 
     }
@@ -30,7 +30,7 @@ int main()
     }
 
 
-    printf("El promedio es:%f y la desviacion es: %f",promedio, des);
+    printf("%f\n%f\n",promedio, des);
 
 
     return 0;

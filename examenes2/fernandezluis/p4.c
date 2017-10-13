@@ -22,8 +22,8 @@ int main(){
     desviacion=sqrt(sumatoria/(n-1));
     //Impresion datos
     for(i=0;i<n;i++){
-        printf("%.0f,", datos[i]);
+        //printf("%.0f,", datos[i]);
     }
-    printf("\ndesviacion=%f", desviacion);
+    printf("%f\n", desviacion);
     return 0;
 }

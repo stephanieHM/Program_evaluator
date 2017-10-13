@@ -28,6 +28,6 @@ int main()
         j--;
     }
     printf("%s\n", cadinv);
-    printf("Longitud: %d", len);
+    printf("%d\n", len);
     return 0;
 }

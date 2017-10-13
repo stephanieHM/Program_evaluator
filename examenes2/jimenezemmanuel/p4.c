@@ -13,10 +13,10 @@ int main()
     {
         a[i]=rand()%100;
         s=s+a[i];
-        printf("%d ",a[i]);
+        //printf("%d ",a[i]);
         if(i==24)
         {
-            printf("\n");
+            //printf("\n");
         }
     }
     p=s/50.0;
@@ -26,6 +26,6 @@ int main()
         S=S+(dif*dif);
     }
     de=sqrt(S/(50.0-1.0));
-    printf("\nMean:%f\nStDev:%f",p,de);
+    printf("%f\n%f\n",p,de);
     return 0;
 }

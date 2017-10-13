@@ -26,12 +26,12 @@ int main()
 {
    char cadena[256],y[256];
    int x=0;
-   printf("Introduce una cadena:\n");
+   //printf("Introduce una cadena:\n");
    gets(cadena);
    x=longCadena(cadena);
    minusmayuculas(cadena);
    printf("%s\n",cadena);
-   printf("Tiene %d de caracteres\n",x);
+   printf("%d\n",x);
 
 }
 

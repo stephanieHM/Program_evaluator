@@ -6,11 +6,11 @@ int main()
 {
     int suma=0, x, vf;
     while(pow(suma,2)<10000){
-        printf("Ingresa un numero: \n");
+        //printf("Ingresa un numero: \n");
         scanf("%d",&x);
         suma=suma+x;
     }
     vf=pow(suma,2);
-    printf("El cuadrado de la suma es: %d",vf);
+    printf("%d\n",vf);
     return 0;
 }

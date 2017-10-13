@@ -14,10 +14,10 @@ int main()
 {
       int x=0;
       char cadena[100]={0};
-      printf("Inserta una cadena de caracteres\n");
+      //printf("Inserta una cadena de caracteres\n");
       gets(&cadena);
       x=contador(cadena);
-      printf("La cadena de caracteres que has introducido tiene %d caracteres",x);
+      printf("%d\n",x);
       return 0;
 }
 

@@ -7,6 +7,8 @@ int main()
     int b1=1;
     int b2=1;
     int c=0;
+    scanf("%d",&b1);
+    scanf("%d",&b2);
 
     printf("%d\n",b1);
     printf("%d\n",b1);

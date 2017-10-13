@@ -27,6 +27,6 @@ int main()
     {
         printf("%c",cad[i]);
     }
-    printf("\n%d",x);
+    printf("\n%d\n",x);
     return 0;
 }

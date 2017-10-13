@@ -46,6 +46,6 @@ int main()
     }
 
 
-    printf("%s\n %d\n", a, j);
+    printf("%s\n%d\n", a, j);
     return 0;
 }

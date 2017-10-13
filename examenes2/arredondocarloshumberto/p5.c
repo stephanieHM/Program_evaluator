@@ -13,9 +13,9 @@ int main()
     for(i=0;i<50;i++)
     {
         num[i]= rand()%100;
-        printf("%d\n", num[i]);
+        //printf("%d\n", num[i]);
     }
-    getchar();
+    //getchar();
     for(i=0;i<50;i++)
     {
         if(num[i]>=0 && num[i]<10)

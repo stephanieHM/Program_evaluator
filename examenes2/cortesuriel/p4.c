@@ -18,20 +18,20 @@ int main()
     {
         x[i]=rand()%100;
         suma=suma+x[i];
-        printf("%d\n",x[i]);
+       //printf("%d\n",x[i]);
     }
     promedio=suma/50.0;
-    printf("\nEl promedio es:%f\n",promedio);
+    printf("%f\n",promedio);
 
     for(j=0;j<50;j++)
     {
         sum=sum+((x[j]-promedio)*(x[j]-promedio));
     }
-    printf("La sumatoria del numero menos el promedio al cuadrado es: %f\n",sum);
+    //printf("La sumatoria del numero menos el promedio al cuadrado es: %f\n",sum);
 
     desv=sqrt(sum/(49));
 
-    printf("La desviacion estandar es:%f\n",desv);
+    printf("%f\n",desv);
 
 
 

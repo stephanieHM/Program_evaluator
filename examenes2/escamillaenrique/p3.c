@@ -27,6 +27,6 @@ int main()
 
     }
     printf("\n");
-    printf("%d",lon);
+    printf("%d\n",lon);
     return 0;
 }

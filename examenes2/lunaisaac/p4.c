@@ -22,7 +22,7 @@ int main()
     }
     valor=(0.02040816327)*(sumatoria);
     desviacion=sqrt(valor);
-    printf("El promedio es %f\n", promedio);
-    printf("La desviacion estandar es %f\n", desviacion);
+    printf("%f\n", promedio);
+    printf("%f\n", desviacion);
     return 0;
 }

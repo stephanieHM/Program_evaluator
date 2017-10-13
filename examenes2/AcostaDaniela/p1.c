@@ -9,7 +9,7 @@ int main()
     int cuadrado=0;
     int i=0;
 
-    printf("Introduce numeros enteros\n");
+    //printf("Introduce numeros enteros\n");
 
     for(i=0;cuadrado<10000;i++)
     {
@@ -21,7 +21,8 @@ int main()
 
     if(cuadrado>10000)
     {
-        printf("El cuadrado de la suma es %d",cuadrado);
+        //printf("El cuadrado de la suma es %d",cuadrado);
+	printf("%d\n",cuadrado);
     }
 
     return 0;

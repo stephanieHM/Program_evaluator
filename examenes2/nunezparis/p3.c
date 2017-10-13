@@ -7,7 +7,7 @@ int main()
     char cda[256]={0}, cdaI[256]={0};
     int i, j, k, l=0;
 
-    printf("Ingrese la cadena:\n");
+    //printf("Ingrese la cadena:\n");
     gets(cda);
     for (i=0; i<256; i++){
         if (cda[i]!=0){
@@ -23,11 +23,11 @@ int main()
             cdaI[i]=cdaI[i]-32;
         }
     }
-    printf("La cadena inversa es: \n");
+    //printf("La cadena inversa es: \n");
     for (i=0; i<l; i++){
         printf("%c",cdaI[i]);
     }
     printf("\n");
-    printf("La longitud es: %d",l);
+    printf("%d\n",l);
     return 0;
 }
