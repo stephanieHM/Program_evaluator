@@ -1,34 +1,34 @@
  
-El alumno FloresDavid acerto en el examen p1 
-El alumno FloresDavid acerto en el examen p5 
-El alumno FloresDavid acerto en el examen p3 
-El alumno salazarcruz acerto en el examen p1 
-El alumno escamillaenrique acerto en el examen p1 
-El alumno escamillaenrique acerto en el examen p3 
-El alumno lunaisaac acerto en el examen p1 
-El alumno lunaisaac acerto en el examen p3 
-El alumno alvaradoalan acerto en el examen p1 
-El alumno alvaradoalan acerto en el examen p3 
-El alumno alvaradoalan acerto en el examen p2 
-El alumno nunezparis acerto en el examen p3 
-El alumno mendozamaria acerto en el examen p1 
-El alumno arredondocarloshumberto acerto en el examen p1 
-El alumno resendizamerica acerto en el examen p1 
-El alumno resendizamerica acerto en el examen p5 
-El alumno resendizamerica acerto en el examen p3 
-El alumno resendizamerica acerto en el examen p2 
-El alumno cortesuriel acerto en el examen p1 
-El alumno cortesuriel acerto en el examen p3 
-El alumno cortesuriel acerto en el examen p2 
-El alumno fernandezluis acerto en el examen p5 
-El alumno fernandezluis acerto en el examen p3 
-El alumno hernandezcarlos acerto en el examen p1 
-El alumno hernandezcarlos acerto en el examen p3 
-El alumno dimasbenjamin acerto en el examen p1 
-El alumno alvarezjavier acerto en el examen p1 
-El alumno alvarezjavier acerto en el examen p3 
-El alumno alvarezjavier acerto en el examen p2 
-El alumno jimenezemmanuel acerto en el examen p1 
-El alumno jimenezemmanuel acerto en el examen p5 
-El alumno jimenezemmanuel acerto en el examen p3 
-El alumno AcostaDaniela acerto en el examen p1 
+STUDENT FloresDavid IS RIGHT ON TEST p1 
+STUDENT FloresDavid IS RIGHT ON TEST p5 
+STUDENT FloresDavid IS RIGHT ON TEST p3 
+STUDENT salazarcruz IS RIGHT ON TEST p1 
+STUDENT escamillaenrique IS RIGHT ON TEST p1 
+STUDENT escamillaenrique IS RIGHT ON TEST p3 
+STUDENT lunaisaac IS RIGHT ON TEST p1 
+STUDENT lunaisaac IS RIGHT ON TEST p3 
+STUDENT alvaradoalan IS RIGHT ON TEST p1 
+STUDENT alvaradoalan IS RIGHT ON TEST p3 
+STUDENT alvaradoalan IS RIGHT ON TEST p2 
+STUDENT nunezparis IS RIGHT ON TEST p3 
+STUDENT mendozamaria IS RIGHT ON TEST p1 
+STUDENT arredondocarloshumberto IS RIGHT ON TEST p1 
+STUDENT resendizamerica IS RIGHT ON TEST p1 
+STUDENT resendizamerica IS RIGHT ON TEST p5 
+STUDENT resendizamerica IS RIGHT ON TEST p3 
+STUDENT resendizamerica IS RIGHT ON TEST p2 
+STUDENT cortesuriel IS RIGHT ON TEST p1 
+STUDENT cortesuriel IS RIGHT ON TEST p3 
+STUDENT cortesuriel IS RIGHT ON TEST p2 
+STUDENT fernandezluis IS RIGHT ON TEST p5 
+STUDENT fernandezluis IS RIGHT ON TEST p3 
+STUDENT hernandezcarlos IS RIGHT ON TEST p1 
+STUDENT hernandezcarlos IS RIGHT ON TEST p3 
+STUDENT dimasbenjamin IS RIGHT ON TEST p1 
+STUDENT alvarezjavier IS RIGHT ON TEST p1 
+STUDENT alvarezjavier IS RIGHT ON TEST p3 
+STUDENT alvarezjavier IS RIGHT ON TEST p2 
+STUDENT jimenezemmanuel IS RIGHT ON TEST p1 
+STUDENT jimenezemmanuel IS RIGHT ON TEST p5 
+STUDENT jimenezemmanuel IS RIGHT ON TEST p3 
+STUDENT AcostaDaniela IS RIGHT ON TEST p1 
