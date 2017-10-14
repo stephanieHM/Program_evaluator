@@ -11,18 +11,19 @@ int main()
 
     srand(time(NULL));
 
-    for(i=0;i<50;i++)
+    for(i=0;i<10;i++)
     {
-        a[i]=rand()%100;
+        //a[i]=rand()%100;
+	scanf("%d",&a[i]);
         x=x+a[i];
         //printf("%d\n",a[i]);
     }
-    xm=x/50.00;
-    for(i=0;i<50;i++)
+    xm=x/10.00;
+    for(i=0;i<10;i++)
     {
         y=y+((a[i]-xm)*(a[i]-xm));
     }
-    de=sqrt((y/(49.00)));
+    de=sqrt((y/(9.00)));
 
     printf("%.2f\n%.2f\n",xm,de);
     return 0;

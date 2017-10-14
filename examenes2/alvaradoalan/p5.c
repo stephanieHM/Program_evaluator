@@ -16,8 +16,8 @@ int main()
     srand(time(NULL));
     for(i=0;i<10;i++)
     {
-        num[i]=rand()%100;
-
+        //num[i]=rand()%100;
+	scanf("%d",&num[i]);
        // printf("%d\n",num[i]);
     }
 

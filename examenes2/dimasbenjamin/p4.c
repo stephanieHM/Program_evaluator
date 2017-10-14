@@ -14,19 +14,20 @@ int main()
 
     srand (time(NULL));
 
-    for(i=0; i<50 ; i++)
+    for(i=0; i<10 ; i++)
     {
-        a[i]=rand()%100;
+	scanf("%d",&a[i]);
+        //a[i]=rand()%100;
         //printf("%d\n", a[i]);
         suma=suma+a[i];
 
     }
 
-    promedio =suma/50;
+    promedio =suma/10;
 
-    for(i=0; i<50; i++)
+    for(i=0; i<10; i++)
     {
-        des=sqrt((1.0/49.0)*((a[i]-promedio)*(a[i]-promedio)));
+        des=sqrt((1.0/9.0)*((a[i]-promedio)*(a[i]-promedio)));
     }
 
 

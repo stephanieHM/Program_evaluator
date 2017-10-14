@@ -7,16 +7,17 @@ int main()
 {
     int i,j,x1=0,x2=0,x3=0,x4=0,x5=0,x6=0,x7=0,x8=0,x9=0,x=0,a[50]={0};
     srand(time(NULL));
-    for(i=0;i<50;i++)
+    for(i=0;i<10;i++)
     {
-        a[i]=rand()%100;
+	scanf("%d",&a[i]);        
+	//a[i]=rand()%100;
         //printf("%d ",a[i]);
         if(i==24)
         {
           //  printf("\n");
         }
     }
-    for(i=0;i<50;i++)
+    for(i=0;i<10;i++)
     {
         if (a[i]<10&&a[i]>=0)
         {

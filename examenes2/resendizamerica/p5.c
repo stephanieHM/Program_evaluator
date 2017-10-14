@@ -9,12 +9,13 @@ int main()
     int intervalo=0;
     int i=0,j=0;
     srand(time(NULL));
-    for(i=0;i<50;i++)
+    for(i=0;i<10;i++)
     {
-        b[i]=rand()%100;
+        //b[i]=rand()%100;
+	scanf("%d", &b[i]);
         //printf("%d\n",b[i]);
     }
-    for(i=0;i<50;i++)
+    for(i=0;i<10;i++)
     {
         if(b[i]>=0&&b[i]<10){aux[0]++;}
         if(b[i]>=10&&b[i]<20){aux[1]++;}

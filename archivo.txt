@@ -1,5 +1,6 @@
  
 El alumno FloresDavid acerto en el examen p1 
+El alumno FloresDavid acerto en el examen p5 
 El alumno FloresDavid acerto en el examen p3 
 El alumno salazarcruz acerto en el examen p1 
 El alumno escamillaenrique acerto en el examen p1 
@@ -13,11 +14,13 @@ El alumno nunezparis acerto en el examen p3
 El alumno mendozamaria acerto en el examen p1 
 El alumno arredondocarloshumberto acerto en el examen p1 
 El alumno resendizamerica acerto en el examen p1 
+El alumno resendizamerica acerto en el examen p5 
 El alumno resendizamerica acerto en el examen p3 
 El alumno resendizamerica acerto en el examen p2 
 El alumno cortesuriel acerto en el examen p1 
 El alumno cortesuriel acerto en el examen p3 
 El alumno cortesuriel acerto en el examen p2 
+El alumno fernandezluis acerto en el examen p5 
 El alumno fernandezluis acerto en el examen p3 
 El alumno hernandezcarlos acerto en el examen p1 
 El alumno hernandezcarlos acerto en el examen p3 
@@ -26,5 +29,6 @@ El alumno alvarezjavier acerto en el examen p1
 El alumno alvarezjavier acerto en el examen p3 
 El alumno alvarezjavier acerto en el examen p2 
 El alumno jimenezemmanuel acerto en el examen p1 
+El alumno jimenezemmanuel acerto en el examen p5 
 El alumno jimenezemmanuel acerto en el examen p3 
 El alumno AcostaDaniela acerto en el examen p1 

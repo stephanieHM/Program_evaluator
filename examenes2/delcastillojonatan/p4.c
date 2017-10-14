@@ -11,10 +11,10 @@ main(void)
     float x=0;
     //printf("cuantos datos almacenara?>%d");
     //scanf("%d",&N);
-    N=50;
+    N=10;
     for(i=1;i<N;i++)
     {
-        printf("ingrese numeros:");
+        //printf("ingrese numeros:");
         scanf("%d",&numeros[i]);
         x=numeros[i]/N;
     }

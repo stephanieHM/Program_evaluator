@@ -8,23 +8,24 @@ int main()
     int x[50],i=0;
     float promedio=0,suma=0,sumatoria=0,desviacion=0,y=.02040816327;
     srand(time(NULL));
-    for(i=0;i<50;i++)
+    for(i=0;i<10;i++) 
     {
-       x[i]=rand()%99;
-       //printf("%d\n",x[i]);
+       //x[i]=rand()%99;
+      scanf("%d",&x[i]);    
+	//printf("%d\n",x[i]);
     }
 
-    for(i=0;i<50;i++)
+    for(i=0;i<10;i++)
     {
         suma+=x[i];
     }
 
     //printf("suma %.2f\n",suma);
-    promedio=suma/50;
+    promedio=suma/10;
     //printf("promedio %.2f\n",promedio);
     printf("%.2f\n",promedio);
 
-    for(i=0;i<50;i++)
+    for(i=0;i<10;i++)
     {
         sumatoria+=(x[i]-promedio)*(x[i]-promedio);
     }

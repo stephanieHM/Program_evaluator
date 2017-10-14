@@ -14,22 +14,23 @@ int main()
     float desv=0;
     srand(time(NULL));
 
-    for(i=0;i<50; i++)
+    for(i=0;i<10; i++)
     {
-        x[i]=rand()%100;
+        //x[i]=rand()%100;
+	scanf("%d",&x[i]);
         suma=suma+x[i];
        //printf("%d\n",x[i]);
     }
-    promedio=suma/50.0;
+    promedio=suma/10.0;
     printf("%f\n",promedio);
 
-    for(j=0;j<50;j++)
+    for(j=0;j<10;j++)
     {
         sum=sum+((x[j]-promedio)*(x[j]-promedio));
     }
     //printf("La sumatoria del numero menos el promedio al cuadrado es: %f\n",sum);
 
-    desv=sqrt(sum/(49));
+    desv=sqrt(sum/(9));
 
     printf("%f\n",desv);
 

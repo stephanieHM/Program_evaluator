@@ -7,14 +7,15 @@ int main()
     int i, j=0, n[50]={0}, c[10]={0};
     srand(time(NULL));
 
-    for (i=0; i<50; i++){
-        n[i]=rand()%99;
+    for (i=0; i<10; i++){
+	scanf("%d", &n[i]);        
+	//n[i]=rand()%99;
     }
-    for (i=0; i<50; i++){
+    for (i=0; i<10; i++){
         //printf("%d\n",n[i]);
     }
     //printf("\n");
-    for(i=0; i<50; i++){
+    for(i=0; i<10; i++){
         if(j<10){
             if (n[i]<10){
                 c[j]=c[j]+1;

@@ -4,12 +4,13 @@
 #include <math.h>
 
 int main(){
-    int data, datos[10]={0}, n=50;
+    int data, datos[10]={0}, n=10;
     int i, j, a;
     //generacion numeros y promedio
     srand(time(NULL));
     for(i=0;i<n;i++){
-        data=rand()%100;
+        //data=rand()%100;
+	scanf("%d", &data);
         //almacenaje valores segun decenas
         if(data<10 && data>=0){
             datos[0]=datos[0]+1;

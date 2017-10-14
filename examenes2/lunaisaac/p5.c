@@ -6,20 +6,21 @@ int main()
 {
     int numeros[50]={0}, i=0, j=0, mayor, t1=0, t2=0, t3=0, t4=0, t5=0, t6=0, t7=0, t8=0, t9=0, t10=0;
     srand(time(NULL));
-    for(i=0;i<50;i++)
+    for(i=0;i<10;i++)
     {
-        numeros[i]=rand()%100;
+        //numeros[i]=rand()%100;
+	scanf("%d", &numeros[i]);
     }
     //IMPRIMIMOS LOS NUMEROS
-    for(i=0;i<50;i++)
+    for(i=0;i<10;i++)
     {
        // printf("%d ", numeros[i]);
     }
     //printf("\n");
 
-    for(j=0;j<50;j++)
+    for(j=0;j<10;j++)
     {
-        for(i=0;i<50;i++)
+        for(i=0;i<10;i++)
         {
             if(numeros[i]>numeros[i+1])
             {
@@ -30,7 +31,7 @@ int main()
         }
     }
     // CONTAMOS LOS CARACTERES
-    for(i=0;i<50;i++)
+    for(i=0;i<10;i++)
     {
         if(numeros[i]>=0 && numeros[i]<=9)
         {//printf("%d ", numeros[i]);

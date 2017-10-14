@@ -10,13 +10,14 @@ int main()
     srand(time(NULL));
 
 
-    for(i=0;i<50;i++)
+    for(i=0;i<10;i++)
     {
-        num[i]= rand()%100;
+	scanf("%d",&num[i]);
+        //num[i]= rand()%100;
         //printf("%d\n", num[i]);
     }
     //getchar();
-    for(i=0;i<50;i++)
+    for(i=0;i<10;i++)
     {
         if(num[i]>=0 && num[i]<10)
         {

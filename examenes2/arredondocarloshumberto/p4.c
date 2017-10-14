@@ -9,20 +9,21 @@ int main()
     int i;
 
     srand(time(NULL));
-    for(i=0;i<50;i++)
+    for(i=0;i<10;i++)
     {
-        num[i]= rand()%100;
-        acum=acum+num[i];
+        //num[i]= rand()%100;
+	scanf("%d",&num[i]);        
+	acum=acum+num[i];
         //printf("%.1f\n", num[i]);
     }
-    prom= acum/50;
+    prom= acum/10;
     printf("%.1f\n", prom);
 
     //Desviacion
 
     getchar();
     acum=0;
-    for(i=0;i<50;i++)
+    for(i=0;i<10;i++)
     {
         acum= acum+((num[i]-prom)*(num[i]-prom));
     }
