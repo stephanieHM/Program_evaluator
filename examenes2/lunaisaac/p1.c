@@ -4,7 +4,7 @@
 int main()
 {
     int x, sumacuadrado=0, suma=0;
-    printf("Escriba numeros positivos:\n");
+    //printf("Escriba numeros positivos:\n");
     while(sumacuadrado<10000)
     {
         scanf("%d", &x);
